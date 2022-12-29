@@ -9,4 +9,3 @@ def log(update: Update, context: CallbackContext):
                    f'{update.effective_user.first_name},'
                    f'{update.effective_user.id},'
                    f'{update.message.text}\n')
-
